@@ -1,0 +1,31 @@
+{
+  "name": "x-mmd-image",
+  "version": "1.0.0",
+  "description": "mmd Image Service",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.5.0",
+    "eslint-loader": "^1.5.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js -f ../../temp/config.image.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "directory-to-object": "^1.1.1",
+    "express": "^4.14.0",
+    "formidable": "^1.0.17",
+    "gm": "^1.23.0",
+    "lodash": "^4.15.0",
+    "mime-types": "^2.1.13",
+    "mkpath": "^1.0.0",
+    "nconf": "^0.8.4",
+    "node-static": "^0.7.8",
+    "rmdir": "^1.2.0",
+    "winston": "^2.3.0"
+  }
+}

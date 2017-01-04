@@ -1,0 +1,43 @@
+{
+  "port": 11190,
+  "tmpDir": "/__talkby-images/tmp",
+  "uploadDir": "/__talkby-images/public",
+  "minFileSize": 1,
+  "maxFileSize": 15728640,
+  "maxPostSize": 15728640,
+  "imageTypes": [
+    "gif",
+    "jpeg",
+    "jpg",
+    "png"
+  ],
+  "accessControl": {
+    "allowOrigin": "*",
+    "allowMethods": "OPTIONS, HEAD, GET, POST, PUT, DELETE",
+    "allowHeaders": "Content-Type, Content-Range, Content-Disposition"
+  },
+  "nodeStatic": {
+    "cache": 3600
+  },
+  "acceptedPaths": [
+    "avatar",
+    "place",
+    "free"
+  ],
+  "acceptedFrames": {
+    "avatar": [
+      { "w": 80, "h": 80 },
+      { "w": 120, "h": 120 },
+      { "w": 640, "h": 480 }
+    ],
+    "place": [
+      { "w": 80, "h": 80 },
+      { "w": 120, "h": 120 },
+      { "w": 640, "h": 480 }
+    ]
+  },
+  "acceptedFileTypes": [
+    "svg",
+    "pdf"
+  ]
+}
